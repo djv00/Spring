@@ -1,6 +1,0 @@
-cn/jy/domain/Order.class
-cn/jy/mapper/OrderMapper.class
-cn/jy/domain/Role.class
-cn/jy/domain/User.class
-cn/jy/mapper/RoleMapper.class
-cn/jy/mapper/UserMapper.class

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Mybatis_anno_20210304" />
+        <module name="Mybatis_config_20210228" />
+        <module name="SSMBaseProject" />
+        <module name="Spring_exception_20210222" />
+        <module name="Spring_Web" />
+        <module name="Mybatis_Dao_20210227" />
+        <module name="SSM_20210308" />
+        <module name="SSM_ZhengHe_20210309" />
+        <module name="Spring_Aop_20210207" />
+        <module name="Spring_Ioc_anno_20210205" />
+        <module name="Spring_tx_Anno_20210217" />
+        <module name="Spring_Jdbc_20210216" />
+        <module name="Mybatis_quick_20210227" />
+        <module name="Mybatis_Mapper_20210228" />
+        <module name="SSM_YuanShi_20210309" />
+        <module name="Spring_interceptor_20210221" />
+        <module name="JavaReview" />
+        <module name="Spring_mvc_20210218" />
+        <module name="Spring_tx_20210217" />
+        <module name="Spring_mvc_start_20210226" />
+        <module name="Spring_Test_20210223" />
+        <module name="Mybatis_multi_20210304" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JavaReview" target="8" />
+      <module name="Mybatis_anno_20210304" target="15" />
+      <module name="Mybatis_config_20210228" target="15" />
+      <module name="Mybatis_Dao_20210227" target="15" />
+      <module name="Mybatis_Mapper_20210228" target="15" />
+      <module name="Mybatis_multi_20210304" target="15" />
+      <module name="Mybatis_quick_20210227" target="15" />
+      <module name="Spring_Aop_20210207" target="9" />
+      <module name="Spring_exception_20210222" target="15" />
+      <module name="Spring_interceptor_20210221" target="15" />
+      <module name="Spring_Ioc_anno_20210205" target="9" />
+      <module name="Spring_Jdbc_20210216" target="15" />
+      <module name="Spring_mvc_20210218" target="15" />
+      <module name="Spring_mvc_start_20210226" target="15" />
+      <module name="Spring_Test_20210223" target="15" />
+      <module name="Spring_tx_20210217" target="15" />
+      <module name="Spring_tx_Anno_20210217" target="15" />
+      <module name="Spring_Web" target="8" />
+      <module name="SSM_20210308" target="15" />
+      <module name="SSM_test" target="15" />
+      <module name="SSM_YuanShi_20210309" target="15" />
+      <module name="SSM_ZhengHe_20210309" target="15" />
+      <module name="SSMBaseProject" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring_mvc_20210218" options="" />
+    </option>
+  </component>
+</project>

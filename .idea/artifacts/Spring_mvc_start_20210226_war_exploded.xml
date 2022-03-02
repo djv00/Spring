@@ -1,0 +1,36 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Spring_mvc_start_20210226:war exploded">
+    <output-path>$PROJECT_DIR$/Spring_mvc_start_20210226/target/Spring_mvc_start_20210226</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>Spring_mvc_start_20210226</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Spring_mvc_start_20210226" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:jsp-api:2.1-6.0.1" />
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:servlet-api-2.5:6.0.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Spring_mvc_start_20210226/target/Spring_mvc_start_20210226/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Spring_mvc_start_20210226/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/SSMBaseProject/src/main/webapp/WEB-INF/views/system/index.jsp" value="file://$PROJECT_DIR$/SSMBaseProject/src/main/webapp/WEB-INF/views/system" />
+        <entry key="file://$PROJECT_DIR$/SSMBaseProject/src/main/webapp/WEB-INF/views/system/login.jsp" value="file://$PROJECT_DIR$/SSMBaseProject/src/main/webapp/WEB-INF/views/system" />
+        <entry key="file://$PROJECT_DIR$/SSM_20210309/src/main/webapp/WEB-INF/pages/accountList.jsp" value="file://$PROJECT_DIR$/SSM_20210309/src/main/webapp/WEB-INF/pages" />
+        <entry key="file://$PROJECT_DIR$/Spring_mvc_20210218/src/main/webapp/ajax.jsp" value="file://$PROJECT_DIR$/Spring_mvc_20210218/src/main/webapp" />
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/Mybatis_Dao_20210227/src/main/resources/log4j.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Mybatis_Mapper_20210228/src/main/resources/log4j.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Mybatis_config_20210228/src/main/resources/log4j.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SSMBaseProject/src/main/java/cn/jy/util/CpachaUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_exception_20210222" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_mvc_20210218/pom.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_mvc_20210218/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_mvc_20210218/src/main/webapp/js/jquery-3.3.1.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Spring_mvc_start_20210226/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_mvc_start_20210226/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_20210217/src/main/java/cn/jy/controller/AccountController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_20210217/src/main/java/cn/jy/dao/AccountDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_20210217/src/main/java/cn/jy/dao/impl/AccountDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_20210217/src/main/java/cn/jy/domain/Account.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_20210217/src/main/java/cn/jy/service/AccountService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_20210217/src/main/java/cn/jy/service/impl/AccountServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_20210217/src/main/resources/applicationContext.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_20210217/web/WEB-INF" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_20210217/web/index.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_Anno_20210217/src/main/java/cn/jy/controller/AccountController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_Anno_20210217/src/main/java/cn/jy/dao/AccountDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_Anno_20210217/src/main/java/cn/jy/dao/impl/AccountDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_Anno_20210217/src/main/java/cn/jy/domain/Account.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_Anno_20210217/src/main/java/cn/jy/service/AccountService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_Anno_20210217/src/main/java/cn/jy/service/impl/AccountServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_Anno_20210217/src/main/resources/applicationContext.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_Anno_20210217/web/WEB-INF" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring_tx_Anno_20210217/web/index.jsp" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

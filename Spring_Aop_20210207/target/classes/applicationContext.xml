@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--引入aop的命名空间，可以参照上面的修改-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--配置目标对象-->
+    <bean id="target" class="cn.jy.aop.Target"></bean>
+
+    <!-- 配置切面对象 -->
+    <bean id="myAspect" class="cn.jy.aop.MyAspect"></bean>
+
+    <!--    配置织入:告诉Spring框架 哪些方法需要进行哪些增强(前置、后置。。)-->
+    <aop:config>
+        <!--声明切面-->
+        <aop:aspect ref="myAspect">
+            <!-- 抽取切点表达式 -->
+            <aop:pointcut id="myPointcut" expression="execution(* cn.jy.aop.*.*(..))"/>
+            <!--切面:切点+通知--><!--aop:后面是增强方式 method="增强方法"--><!--pointcut:切点=execution(public void 要增强的方法的全类名())-->
+            <!--                    <aop:before method="before" pointcut="execution(public void cn.jy.aop.Target.save())"/>-->
+            <!--                    <aop:before method="before" pointcut="execution(* cn.jy.aop.*.*(..))"/>-->
+            <!--                    <aop:after-returning method="afterReturnling" pointcut="execution(* cn.jy.aop.*.*(..))"/>-->
+            <!--                        <aop:around method="around" pointcut="execution(* cn.jy.aop.*.*(..))"/>-->
+            <!--                        <aop:after-throwing method="afterThrowing" pointcut="execution(* cn.jy.aop.*.*(..))"/>-->
+            <!--                        <aop:after method="after" pointcut="execution(* cn.jy.aop.*.*(..))"/>-->
+            <!--            使用抽取的切点表达式配置:-->
+            <aop:around method="around" pointcut-ref="myPointcut"/>
+            <aop:after method="after" pointcut-ref="myPointcut"/>
+        </aop:aspect>
+    </aop:config>
+</beans>
